@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(30, 34, 37);
+    color: white;
+    font-family: 'Segoe UI';
+    margin: 0 auto;
+    padding: 15px;
+}
+#sessão-sobre{
+    background-color: rgb(108, 100, 151);;
+}
+#sessão-inicial{
+    background-color: rgb(116, 143, 167);
+}
+#sessão-contato{
+    background-color: rgb(105, 105, 197);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:green
+}
+
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+}
+
+li{
+    display: inline;
+    margin: 20px;
+}
+
+.imgtopo{
+    width: 200px;
+    height: 60px;
+}
+
+.main{
+    flex-direction: column;
+    padding: 15px;
+}
+
+section{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;   
+}
+
+.imgbody{
+    width: 500px;
+    height: 500px;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+input{
+    border-radius: 15px;
+    border: none;
+    height: 20px;
+    padding: 5px;
+}
+
+#btn-enviar{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(67, 160, 67);
+    font-weight: bold;
+    color: white;
+}
+
+#btn-enviar:hover{
+    cursor: pointer;
+}
